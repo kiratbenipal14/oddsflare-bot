@@ -41,4 +41,4 @@ def check_live_matches():
         return []
 
 if __name__ == "__main__":
-    send_telgram_message("Test Flip Detected! Bot is working fine!")
+    send_telegram_message("Test Flip Detected! Bot is working fine!")
