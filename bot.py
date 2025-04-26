@@ -41,9 +41,4 @@ def check_live_matches():
         return []
 
 if __name__ == "__main__":
-    alerts = check_live_matches()
-    if alerts:
-        for alert in alerts:
-            send_telegram_message(alert)
-    else:
-        send_telegram_message("No flips detected yet. Bot is monitoring...")
+    send_telgram_message("Test Flip Detected! Bot is working fine!")
